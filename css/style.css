@@ -6,6 +6,7 @@
 body{
   padding-top: 4rem;
 }
+body::after{ content:''; display:block; height:100px; }
 /* css styling taken from week 2 tutorial from Paul*/
 img {
   margin-left: auto;
@@ -151,6 +152,12 @@ header .header-projects {
 
 }
 /* Footer */
+#footer{
+  bottom:0;
+  left: 0;
+  width:100%;
+  height:100px;
+}
 #footer .box-container3 p{
   margin: 0;
 }
@@ -309,6 +316,7 @@ input[type=submit] {
   cursor: pointer;
 }
 form {
+   position: relative;
   border-radius: 5px;
   background-color: #D1E7F1;
   padding: 20px;
