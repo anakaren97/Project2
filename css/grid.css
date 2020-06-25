@@ -5,6 +5,10 @@ box-sizing: border-box;
   height: 350px;
 
 }
+#footer .container .block{
+  height: 200px;
+
+}
 
 .box-item-nav{
   justify-content: center;
