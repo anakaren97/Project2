@@ -6,6 +6,14 @@
 body{
   padding-top: 4rem;
 }
+main{
+  padding-bottom: 200px;
+}
+@media (max-width: 30em) {
+  main{
+    padding-bottom: 0;
+  }
+}
 body::after{ content:''; display:block; height:100px; }
 /* css styling taken from week 2 tutorial from Paul*/
 img {
@@ -58,10 +66,10 @@ p{
 /*header*/
  header{
   position: fixed;
-   top:0;
-   left: 0;
-    width: 100%;
-    background-color:#D1E7F1;
+  top:0;
+  left: 0;
+  width: 100%;
+  background-color:#D1E7F1;
 }
 
 header .header-brand{
@@ -151,19 +159,43 @@ header .header-projects {
 
 
 }
+/* Contact Page */
+
+#ContactUs .box-container3 h3{
+    padding-top: 2rem;
+}
+#ContactUs .box-container3 {
+height: 200px;
+}
+#ConactUs img{
+  width: 100%;
+  height: 300px;
+  padding-bottom: 10rem;
+}
+
 /* Footer */
 #footer{
   bottom:0;
   left: 0;
   width:100%;
   height:100px;
+
 }
-#footer .box-container3 p{
+#footer .box-container2{
+    background-color: #8B9F5E;
+}
+#footer .box-container2 p{
   margin: 0;
 }
-#footer .box-container3 h3{
+#footer .box-container2 p a{
+    font-size: 20px;
+  color: #F0F9FC;
+  text-decoration: none;
+}
+#footer .box-container2 h3{
   margin-bottom:  0;
 }
+
 /* Reviews */
 .box-center, .review img{
   display: inline;
@@ -318,8 +350,6 @@ input[type=submit] {
 form {
    position: relative;
   border-radius: 5px;
-  background-color: #D1E7F1;
-  padding: 20px;
 }
 form img{
   width: 400px;
