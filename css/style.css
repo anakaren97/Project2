@@ -6,12 +6,14 @@
 body{
   padding-top: 4rem;
 }
-main{
+main #FooterSpace{
+  background-color: #D1E7F1;
+
   padding-bottom: 200px;
 }
 @media (max-width: 30em) {
-  main{
-    padding-bottom: 0;
+  main #FooterSpace{
+    padding-bottom: 100px;
   }
 }
 body::after{ content:''; display:block; height:100px; }
@@ -381,18 +383,6 @@ color: black;
  }
 }
 
-
-/*Login*/
-.login{
- background-color: #D1E7F1
-
-}
-
-/*Payment*/
-.payment{
- background-color: #D1E7F1
-
-}
 
 
 
