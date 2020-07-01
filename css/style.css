@@ -318,7 +318,48 @@ font-family: filson-pro, sans-serif;
 .fadeIn{
   top: 20%;
 }
+@media only screen  and (max-width:30em){
+  .content .content-overlay {
+    display: none;
+  }
+  .fadeIn{
+    top: 150px;
+  }
+  .content-details h3{
+    background-color: rgba(0,0,0,0.3);
 
+  }
+  .content-details p{
+    background-color: rgba(0,0,0,0.3);
+    font-size: 18px;
+  }
+  .box-issue .content-overlay img{
+  background-color: rgba(0,0,0,0.9);
+  }
+
+
+.container{
+padding-left: 0px;
+  float: left;
+  width: 100%;
+}
+
+.content{
+  position: left;
+  width: 100%;
+  max-width: 90%;
+  padding-left: -10%;
+
+}
+.content-image{
+  width: 100%;
+}
+.content-details, .services .services-info {
+  opacity: 1;
+}
+
+
+}
 
 /* Forms */
 input[type=text], select {
