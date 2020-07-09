@@ -186,6 +186,12 @@ height: 200px;
   height: 300px;
   padding-bottom: 10rem;
 }
+  #mapcanvas{
+overflow:hidden;
+}
+#gmap_canvas{
+  height:100%;width:100%
+}
 
 @media (max-width: 30em) {
   #mapcanvas{
